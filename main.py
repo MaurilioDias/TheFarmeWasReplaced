@@ -23,10 +23,6 @@ while True:
 			Plantar.cenoura()
 		if cont >= 21 and cont <= 31:
 			Plantar.capim()
-		
-#		if cont >= 18 and cont <= 21:
-#			Plantar.capim()
-
 
 		if i < 31:
 			move(North)
@@ -34,7 +30,6 @@ while True:
 			move(East)
 	
 	cont +=1
-
 	
 	if cont > 31:
 		cont = 0
