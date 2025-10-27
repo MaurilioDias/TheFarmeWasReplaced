@@ -1,6 +1,6 @@
 # TheFarmeWasReplaced
 
-Este código foi feito jogo The Farme Was Replacer.
+Este código foi feito para o jogo The Farme Was Replacer.
 
 Já adianto que não irá servir para a fase com o labirinto.
 
