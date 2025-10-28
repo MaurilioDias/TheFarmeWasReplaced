@@ -1,9 +1,10 @@
 import Plantar
 
-cont = 0
+cont = 0 # Variável para controla da quantidade de Colunas
 
 while True:
-	for i in range(get_world_size()):
+	for i in range(get_world_size()):#Laço que faz o drone percorrer cada casa
+		# As condições IF controla o que será plantado em cada linha
 		if cont >= 0 and cont <= 1:
 			Plantar.girassol()
 		
@@ -24,7 +25,7 @@ while True:
 		if cont >= 21 and cont <= 31:
 			Plantar.capim()
 
-		if i < 31:
+		if i < 31:#Decide se o drona se move para frente ou para a esquerda
 			move(North)
 		else:
 			move(East)
